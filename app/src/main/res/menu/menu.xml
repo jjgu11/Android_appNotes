@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <!--LISTA DE MENU-->
+        <item
+            android:id="@+id/principal"
+            android:title="Principal"
+            android:icon="@drawable/logo"
+            android:checked="false">
+        </item>
+
+        <item
+            android:id="@+id/supermercado"
+            android:title="Supermercado"
+            android:icon="@drawable/logo"
+            android:checked="false">
+        </item>
+
+        <item
+            android:id="@+id/pendientes"
+            android:title="pendientes"
+            android:icon="@drawable/logo"
+            android:checked="false">
+        </item>
+
+        <item
+            android:id="@+id/vacaciones"
+            android:title="vacaciones"
+            android:icon="@drawable/logo"
+            android:checked="false">
+        </item>
+
+        <item
+            android:id="@+id/acerca"
+            android:title="Acerca"
+            android:icon="@drawable/logo"
+            android:checked="false">
+        </item>
+
+    </group>
+</menu>
